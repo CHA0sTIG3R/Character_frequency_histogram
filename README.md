@@ -1,6 +1,6 @@
 # Character Frequency Histogram
 
-### This program reads a text file and counts how many times a character is used in he text file
+### This program reads a text file and counts how many times a character is used in the text file
 
 
 *for example:*
