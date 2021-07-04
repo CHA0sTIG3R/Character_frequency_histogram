@@ -18,7 +18,7 @@ try:
             else:
                 aldict[ch] = 1
     src.close()
-    for key, val in sorted(aldict.items()):
+    for key, val in aldict.items():
         print(key, " -> ", val) 
 except Exception as e:
     print("Cannot Read File: ", e)
