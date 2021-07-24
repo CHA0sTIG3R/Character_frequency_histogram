@@ -1,7 +1,5 @@
 # Character Frequency Histogram
-
-### This program reads a text file and counts how many times a character is used in the text file
-
+**This program reads a text file and counts how many times a character is used in the text file**
 
 *for example:*
 we have a text file called **text.txt**
@@ -59,3 +57,39 @@ The Output after being sorted:
     x  ->  3
     y  ->  1
 
+## Updated Version of Character Frequency Histogram
+
+**This version also reads a text file but outputs the result to a to a text file with the same name but it adds a "hist_" prefix to the name of the file, it also sorts the output using the values instead of the key**
+
+*for example:*
+we have a text file called **text.txt**
+
+text.txt:
+
+    Beautiful is better than ugly.
+    Explicit is better than implicit.
+    Simple is better than complex.
+    Complex is better than complicated.
+
+hist_text.txt:
+
+    t -> 16
+    e -> 14
+    i -> 12
+    l -> 8
+    a -> 6
+    p -> 6
+    c -> 6
+    b -> 5
+    s -> 5
+    m -> 5
+    r -> 4
+    h -> 4
+    n -> 4
+    u -> 3
+    x -> 3
+    o -> 3
+    f -> 1
+    g -> 1
+    y -> 1
+    d -> 1
